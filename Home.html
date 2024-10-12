@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index/Home Page</title>
+    <link rel="stylesheet" href="cssFiles/style.css">
+</head>
+<body>
+    <header class="head">
+        <h2><span>F</span>oo<span>D</span>ie</h2>
+        <nav class="navigate">
+            <a class="active" href="Home.html">Home</a>
+            <a href="Menu.html">MenuChart</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        <div class="mobile-menu" onclick="toggleMenu()">
+            <div class="hamburgur">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navigate2">
+                <a class="active" href="Home.html">Home</a>
+                <a href="Menu.html">MenuChart</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+        <a class="reg" href="Registration.html">Register</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Never let <span>HUNGER</span> decide your <span>MOOD</span></h1>
+            <p>Become a <span>FooDie</span> and <span class="sp1">HUNT</span> the <span>HUNGER</span></p>
+            <div class="member">
+                <p>Become a Member </p>
+                <button type="button">Take Membership</button>
+            </div>
+            <div class="review">
+                <p>100K+ Members Till Now</p>
+                <p>Highly recomended food ordering browser</p>
+                <p>4.5 star rating</p>
+                <p>Trusted</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="locality">
+        <div class="info">
+            <select name="area" id="area">
+                <option value="default">Location</option>
+                <option value="VSP">Visakhapatnam</option>
+                <option value="BZA">Vijayawada</option>
+                <option value="VZM">Vijayanagaram</option>
+                <option value="SKL">Srikakulam</option>
+                <option value="EGD">East Godavari</option>
+                <option value="WGD">West Godavari</option>
+                <option value="CHT">Chitoor</option>
+            </select>
+            <p><span>|</span></p>
+            <p>Select your location to access Restaurants nearby.</p>
+        </div>
+    </section>
+
+    <!-- <section class="footer">&copy; FooDie App Limited</section> -->
+
+    <script src="Scripts/HomeScript.js"></script>
+</body>
+</html>
